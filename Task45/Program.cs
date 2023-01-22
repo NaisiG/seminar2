@@ -37,5 +37,5 @@ int[] originArray = CreateArrayRndInt(10, -3, 5);
 PrintArray(originArray);
 
 int[] copyArray = CopyArray(originArray);
-copyArray[0] = 30;
+copyArray[0] = 30; //добавили чтоб убедиться
 PrintArray(copyArray);
